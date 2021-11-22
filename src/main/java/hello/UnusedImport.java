@@ -16,9 +16,4 @@ public class UnusedImport {
   public static boolean isBlank(String nullable) {
     return nullable == null || nullable.isEmpty() || nullable.matches("\\s+");
   }
-
-  public static BigInteger getThing() {
-    return BigInteger.valueOf(3);
-  }
-
 }
